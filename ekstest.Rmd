@@ -1,0 +1,10 @@
+---
+title: "Off-Host Test Report"
+output: html_document
+params:
+  n: 100
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+set.seed(42)
